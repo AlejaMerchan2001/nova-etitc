@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nova · Asistente Virtual ETITC</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@500&display=swap">
+  <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='img/nova.svg') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="wrap">
+    <section class="info">
+      <div class="eyebrow">Proyecto · Atención al ciudadano 24/7</div>
+      <h1>Nova, el asistente virtual con respuestas predefinidas de la ETITC</h1>
+      <p class="lead">Resuelve las dudas frecuentes en cualquier momento, atiende urgencias de inmediato y solo pasa a un asesor humano cuando hace falta, respetando el horario de atención.</p>
+
+      <div class="compare">
+        <div class="now"><h3>Chat actual</h3><ul><li>Lunes a viernes, 8:00 a.m. a 5:00 p.m.</li><li>Todo lo responde una persona</li><li>Fuera de horario: respuesta al correo</li><li>Sin ruta para urgencias</li></ul></div>
+        <div class="new"><h3>Nova</h3><ul><li>Disponible 24/7, todos los días</li><li>Menú desplegable con respuestas listas</li><li>Botón de urgencias siempre visible</li><li>Asesor humano solo en horario hábil</li></ul></div>
+      </div>
+
+      <div class="sim">
+        <label for="clock">Simular el horario (para la sustentación)</label>
+        <div class="row">
+          <select id="clock">
+            <option value="">Hora real de Bogotá</option>
+            <option value="enHorario">Martes 10:00 a.m. (en horario)</option>
+            <option value="fueraHorario">Sábado 9:30 p.m. (fuera de horario)</option>
+          </select>
+          <span id="clockStatus" class="status">Consultando…</span>
+        </div>
+        <small>Cambia la opción y pide "Hablar con un asesor" para ver las dos ramas de la condición. Las solicitudes quedan en <a href="/admin">/admin</a>.</small>
+      </div>
+    </section>
+
+    <aside class="chat" aria-label="Chat con Nova">
+      <div class="head">
+        <div class="avatar"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+          <defs>
+            <linearGradient id="novaCabeza" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#f1fbf4"/>
+              <stop offset="1" stop-color="#d3f2de"/>
+            </linearGradient>
+            <linearGradient id="novaOreja" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#bff3d2"/>
+              <stop offset="1" stop-color="#8fe3b0"/>
+            </linearGradient>
+          </defs>
+          <path d="M19 47 A31 31 0 0 1 81 47" fill="none" stroke="#6fe39c" stroke-width="2.6" stroke-linecap="round"/>
+          <path d="M21 57 C21 72 31 81 45 82" fill="none" stroke="#6fe39c" stroke-width="2.4" stroke-linecap="round"/>
+          <ellipse cx="22" cy="52" rx="9" ry="11" fill="url(#novaOreja)"/>
+          <ellipse cx="78" cy="52" rx="9" ry="11" fill="url(#novaOreja)"/>
+          <circle cx="50" cy="51" r="29" fill="url(#novaCabeza)"/>
+          <rect x="27" y="38" width="46" height="21" rx="10.5" fill="#1d5a36"/>
+          <circle cx="38.5" cy="48.5" r="5.2" fill="#ffffff"/>
+          <circle cx="61.5" cy="48.5" r="5.2" fill="#ffffff"/>
+          <path d="M44 66 Q50 71 56 66" fill="none" stroke="#1d5a36" stroke-width="2.6" stroke-linecap="round"/>
+          <ellipse cx="50" cy="82" rx="7.5" ry="4.6" fill="#bff3d2"/>
+        </svg>
+        </div>
+        <div><div class="t">Nova</div><div class="s"><span class="dot"></span>En línea 24/7</div></div>
+        <button class="home" id="homeBtn" type="button">Menú</button>
+      </div>
+      <button class="sos" id="sosBtn" type="button"><i>!</i>¿Tienes una urgencia? Toca aquí</button>
+      <div class="log" id="log" aria-live="polite"></div>
+      <form class="input" id="inputForm">
+        <input id="q" type="text" placeholder="Escribe tu pregunta…" autocomplete="off" aria-label="Mensaje">
+        <button type="submit">Enviar</button>
+      </form>
+    </aside>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+</html>
