@@ -1,0 +1,1099 @@
+{
+  "nodos": {
+    "inicio": {
+      "texto": "¡Hola! Soy Nova, el asistente virtual de la ETITC. Estoy disponible las 24 horas, todos los días. ¿En qué te ayudo?",
+      "opciones": [
+        [
+          "Admisiones e inscripciones",
+          "admisiones"
+        ],
+        [
+          "Matrícula y pagos",
+          "pagos"
+        ],
+        [
+          "Certificados y constancias",
+          "certificados"
+        ],
+        [
+          "Plataformas y correo",
+          "plataformas"
+        ],
+        [
+          "Calendario académico",
+          "calendario"
+        ],
+        [
+          "Bienestar y apoyo",
+          "bienestar"
+        ],
+        [
+          "Hablar con un asesor",
+          "asesor"
+        ]
+      ]
+    },
+    "admisiones": {
+      "texto": "Admisiones a pregrado (Programas de Educación Superior). ¿Qué necesitas saber?",
+      "opciones": [
+        [
+          "Cómo inscribirme (paso a paso)",
+          "admPasos"
+        ],
+        [
+          "Requisitos y documentos",
+          "admReq"
+        ],
+        [
+          "Fechas 2027-1",
+          "admFechas"
+        ],
+        [
+          "Costos, gratuidad y descuentos",
+          "admCostos"
+        ],
+        [
+          "Homologación",
+          "admHomologacion"
+        ],
+        [
+          "¿Puedo entrar directo a ingeniería?",
+          "admCiclos"
+        ],
+        [
+          "Bachillerato (IBTI)",
+          "admIbti"
+        ],
+        [
+          "Contacto de admisiones",
+          "admContacto"
+        ]
+      ]
+    },
+    "pagos": {
+      "texto": "Matrícula y pagos de estudiantes antiguos. Todo el proceso se hace en Academusoft. ¿Qué necesitas?",
+      "opciones": [
+        [
+          "Inscribir materias y generar el recibo",
+          "pagAcademusoft"
+        ],
+        [
+          "Pagar la matrícula",
+          "pagPagar"
+        ],
+        [
+          "Legalizar la matrícula",
+          "pagLegalizar"
+        ],
+        [
+          "Descuento electoral",
+          "pagDescuento"
+        ],
+        [
+          "Mi matrícula sale pendiente o tengo un problema",
+          "pagProblemas"
+        ]
+      ]
+    },
+    "certificados": {
+      "texto": "¿Qué documento necesitas?",
+      "opciones": [
+        [
+          "Certificado de estudios, de notas o constancia",
+          "certEstudio"
+        ],
+        [
+          "Certificado de costos",
+          "certCostos"
+        ],
+        [
+          "Duplicado de acta de grado o diploma",
+          "certDuplicado"
+        ]
+      ]
+    },
+    "plataformas": {
+      "texto": "¿Con qué plataforma tienes problemas?",
+      "opciones": [
+        [
+          "Olvidé mi contraseña",
+          "platClave"
+        ],
+        [
+          "Correo institucional",
+          "platCorreo"
+        ],
+        [
+          "Aula virtual",
+          "platAula"
+        ]
+      ]
+    },
+    "platClave": {
+      "texto": "Para recuperar la contraseña usa la opción ¿Olvidaste tu contraseña? en la pantalla de ingreso. Llegará un enlace a tu correo personal registrado.\n\nSi ya no tienes acceso a ese correo, un asesor debe validar tu identidad.",
+      "opciones": [
+        [
+          "Hablar con un asesor",
+          "asesor"
+        ],
+        [
+          "Volver al menú",
+          "inicio"
+        ]
+      ]
+    },
+    "platCorreo": {
+      "texto": "Tu correo institucional se activa después de matricularte. Ingresa con tu usuario y la contraseña temporal que te enviaron al correo personal.",
+      "opciones": [
+        [
+          "Olvidé mi contraseña",
+          "platClave"
+        ],
+        [
+          "Volver al menú",
+          "inicio"
+        ]
+      ]
+    },
+    "platAula": {
+      "texto": "Si no ves tus cursos en el aula virtual, espera 24 horas después de la inscripción de materias. Si tienes una entrega hoy y la plataforma falla, repórtalo como urgencia académica.",
+      "opciones": [
+        [
+          "Reportar urgencia",
+          "urgencias"
+        ],
+        [
+          "Volver al menú",
+          "inicio"
+        ]
+      ]
+    },
+    "calendario": {
+      "texto": "Calendario académico de pregrado (Acuerdo 05 de 2025 del Consejo Académico y sus modificaciones). ¿Qué fechas buscas?",
+      "opciones": [
+        [
+          "Parciales, finales y notas 2026-2",
+          "calParciales"
+        ],
+        [
+          "Inicio del semestre 2027-1",
+          "calInicio2027"
+        ],
+        [
+          "Cancelación de materias",
+          "calCancelacion"
+        ],
+        [
+          "Reintegros, transferencias y homologaciones",
+          "calSolicitudes"
+        ],
+        [
+          "Grados",
+          "calGrados"
+        ]
+      ]
+    },
+    "bienestar": {
+      "texto": "Bienestar Universitario promueve la formación integral y la calidad de vida de la comunidad. Tiene seis áreas: Psicología, Salud, Trabajo Social, Arte y Cultura, Recreación y Deporte, y Pastoral.\n\nAtención: lunes a viernes, de 8:00 a.m. a 5:00 p.m., en la Calle 13 # 16-74. Contacto: bienestar@itc.edu.co, PBX 601 344 3000 ext. 283.\n\n¿Qué servicio te interesa?",
+      "enlaces": [
+        [
+          "Página de Bienestar Universitario",
+          "https://etitc.edu.co/es/page/bienestaruniversitario"
+        ]
+      ],
+      "opciones": [
+        [
+          "Psicología",
+          "bienPsico"
+        ],
+        [
+          "Salud (enfermería)",
+          "bienSalud"
+        ],
+        [
+          "Deportes, arte y cultura",
+          "bienDeporte"
+        ],
+        [
+          "Apoyo académico y permanencia",
+          "bienPermanencia"
+        ],
+        [
+          "Trabajo social y apoyos",
+          "bienSocial"
+        ],
+        [
+          "Necesito apoyo emocional ahora",
+          "urgEmocional",
+          "peligro"
+        ]
+      ]
+    },
+    "urgencias": {
+      "texto": "Estoy aquí para ayudarte. ¿Qué tipo de situación es?",
+      "tipo": "alerta",
+      "opciones": [
+        [
+          "Emergencia de salud o seguridad",
+          "urgEmergencia",
+          "peligro"
+        ],
+        [
+          "Crisis emocional",
+          "urgEmocional",
+          "peligro"
+        ],
+        [
+          "Conflicto con un profesor",
+          "urgAcademica",
+          "peligro"
+        ],
+        [
+          "Violencia o acoso",
+          "urgViolencia",
+          "peligro"
+        ]
+      ]
+    },
+    "urgEmergencia": {
+      "texto": "Si tu vida o la de otra persona está en riesgo, llama ya a la Línea de Emergencias 123.\n\nSi estás en la sede de la ETITC (Calle 13 # 16-74):\n• Avisa a la brigada de emergencias o al personal de seguridad más cercano. La sede tiene brigadistas de primeros auxilios, evacuación y contra incendios en cada sector.\n• Enfermería está en la Casona de Bienestar (Bloque AB): enfermeria@itc.edu.co, PBX 601 344 3000 ext. 162.\n• Si suena la alarma de evacuación, sigue las rutas señalizadas hacia el punto de encuentro de tu sector, en los patios, y espera instrucciones de la brigada.",
+      "tipo": "alerta",
+      "enlaces": [
+        [
+          "Plan de emergencias de la ETITC (PDF)",
+          "https://etitc.edu.co/archives/planemergencias24.pdf"
+        ]
+      ],
+      "opciones": [
+        [
+          "Ya estoy a salvo, volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "urgEmocional": {
+      "texto": "Gracias por escribir. No tienes que pasar por esto solo o sola.\n\n• Si sientes que puedes hacerte daño, llama ya a la Línea 123.\n• También puedes llamar a la línea de salud mental del Ministerio de Salud: 192, opción 4.\n\nEn la ETITC, el área de Psicología de Bienestar ofrece acompañamiento individual en temas como ansiedad, estrés y duelo, de lunes a viernes de 8:00 a.m. a 5:00 p.m.:\n• psicologia.pes@itc.edu.co, ext. 168\n• psicologiaetitc@itc.edu.co, ext. 165\n\nSi quieres, deja tus datos y Bienestar te contactará con prioridad.",
+      "tipo": "alerta",
+      "enlaces": [
+        [
+          "Tú vales (Bienestar ETITC)",
+          "https://tuvales.etitc.edu.co"
+        ]
+      ],
+      "opciones": [
+        [
+          "Quiero que me contacten",
+          "formUrgente",
+          "peligro"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "urgAcademica": {
+      "texto": "Si tienes un conflicto con un profesor (una nota con la que no estás de acuerdo, un trato irrespetuoso o un problema en clase), el Reglamento Estudiantil te da derecho a presentar por escrito tus solicitudes y reclamaciones y a recibir respuesta oportuna (Art. 31).\n\nLo recomendado es seguir el conducto regular:\n1. Hablar primero con el profesor.\n2. Si no se resuelve, acudir a la Decanatura de tu Facultad.\n3. También puedes apoyarte en tu representante estudiantil ante el Consejo de Facultad.\n\nSi quieres, te hago 3 preguntas rápidas y dejo registrado tu caso para que la Facultad lo revise.",
+      "tipo": "alerta",
+      "enlaces": [
+        [
+          "Reglamento Estudiantil (PDF)",
+          "https://etitc.edu.co/archives/acuerdo092021.pdf"
+        ],
+        [
+          "Radicar una PQRSD",
+          "https://siac.itc.edu.co/"
+        ]
+      ],
+      "opciones": [
+        [
+          "Registrar mi caso (3 preguntas)",
+          "formConflicto",
+          "peligro"
+        ],
+        [
+          "Cómo reclamar una nota",
+          "confNota"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "certEstudio": {
+      "texto": "Para pedir un certificado de estudios, un certificado de notas o una constancia de estudio tienes que hacer dos pasos. Los dos son obligatorios:\n\n1. Pagar: en la página de la ETITC entra a Servicios → Pagos en línea. En el Portal de Pagos Davivienda elige el concepto según tu nivel (Bachillerato o Educación Superior) y paga con Daviplata u otro medio habilitado.\n\n2. Llenar el formulario \"Solicitud de certificados de notas y constancia de estudio\".\n\nEl documento se entrega en 5 días hábiles después de recibir la solicitud completa, en formato físico o virtual.",
+      "enlaces": [
+        [
+          "1. Pagar en el Portal de Pagos Davivienda",
+          "https://portalpagos.davivienda.com/#/comercio/6962/Instituto%20Tecnico%20Central"
+        ],
+        [
+          "2. Llenar el formulario de solicitud",
+          "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=RtBfSWTYZ0ae6FBnl2TYNPKnK8S1HsNCtDtaIH9mWy1UOFNUQTJZNFo4ODlKWTBDUk9KOVdXRUQwOC4u"
+        ]
+      ],
+      "opciones": [
+        [
+          "Otro tipo de certificado",
+          "certificados"
+        ],
+        [
+          "Hablar con un asesor",
+          "asesor"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "certCostos": {
+      "texto": "Para pedir un certificado de costos (por ejemplo, para presentarlo en otra universidad):\n\n1. Pagar: entra a Servicios → Pagos en línea y, en el Portal de Pagos Davivienda, elige el concepto \"certificado de costos\". Puedes pagar con Daviplata u otro medio habilitado.\n\n2. Enviar el comprobante de pago al correo auxtesoreria1@itc.edu.co, con tus datos personales y el documento que necesitas.",
+      "enlaces": [
+        [
+          "Pagar en el Portal de Pagos Davivienda",
+          "https://portalpagos.davivienda.com/#/comercio/6962/Instituto%20Tecnico%20Central"
+        ]
+      ],
+      "opciones": [
+        [
+          "Otro tipo de certificado",
+          "certificados"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "certDuplicado": {
+      "texto": "Para pedir un duplicado del acta de grado o del diploma:\n\n1. Solicita el recibo de pago en el área de Tesorería. El valor depende de la modalidad (educación superior u otra).\n\n2. Paga en el Banco Davivienda o en el Portal de Pagos.\n\n3. Envía el comprobante al correo secsgeneral@itc.edu.co con tus nombres y apellidos, número de documento y el tipo de documento que solicitas.\n\nLa Secretaría General gestiona la solicitud y coordina contigo la entrega. Atiende de lunes a viernes, de 8:00 a.m. a 5:00 p.m.; no hay servicio en festivos.",
+      "enlaces": [
+        [
+          "Pagar en el Portal de Pagos Davivienda",
+          "https://portalpagos.davivienda.com/#/comercio/6962/Instituto%20Tecnico%20Central"
+        ]
+      ],
+      "opciones": [
+        [
+          "Otro tipo de certificado",
+          "certificados"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "admPasos": {
+      "texto": "Así es el proceso de inscripción a los Programas de Educación Superior:\n\n1. Reúne los documentos requeridos.\n2. Inscríbete en línea en la plataforma Academusoft.\n3. La Facultad hace el estudio de admisión. La admisión se basa en los puntajes de la prueba Saber 11.\n4. Consulta la lista de admitidos en la página de admisiones.\n5. Si fuiste admitido, descarga el recibo y paga la matrícula en el Banco Davivienda.\n6. Asiste a la inducción y empieza clases.\n\nLa ETITC publica un paso a paso con imágenes para hacer la inscripción.",
+      "enlaces": [
+        [
+          "Inscribirme en línea (Academusoft)",
+          "https://academusoft.etitc.edu.co/etitc/academusoft/academico/inscripcionLinea4/ind_ins_pub_seguro.jsp"
+        ],
+        [
+          "Ver el paso a paso (PDF)",
+          "https://www.etitc.edu.co/archives/pasoapaso226.pdf"
+        ],
+        [
+          "Descargar recibo de matrícula",
+          "http://academusoft.etitc.edu.co/etitc/academusoft/academico/liquidaciones/ind_liq_pub_seguro.jsp"
+        ]
+      ],
+      "opciones": [
+        [
+          "Requisitos y documentos",
+          "admReq"
+        ],
+        [
+          "Fechas 2027-1",
+          "admFechas"
+        ],
+        [
+          "Otra pregunta de admisiones",
+          "admisiones"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "admReq": {
+      "texto": "Documentos para la inscripción a Educación Superior:\n• Documento de identidad legible y ampliado al 150 %\n• Acta de grado de bachiller\n• Resultado de la prueba ICFES Saber 11\n• Certificado de afiliación a EPS o SISBEN\n• Un recibo de servicio público del domicilio (agua, luz o gas)\n\nSi no subiste el certificado de EPS o SISBEN al inscribirte, o solo subiste el soporte de ADRES, envíalo a auxregistroycontrol1@itc.edu.co, con tu número de documento como nombre del archivo.",
+      "enlaces": [
+        [
+          "Inscribirme en línea (Academusoft)",
+          "https://academusoft.etitc.edu.co/etitc/academusoft/academico/inscripcionLinea4/ind_ins_pub_seguro.jsp"
+        ]
+      ],
+      "opciones": [
+        [
+          "Cómo inscribirme (paso a paso)",
+          "admPasos"
+        ],
+        [
+          "Otra pregunta de admisiones",
+          "admisiones"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "admFechas": {
+      "texto": "Calendario de admisiones para el primer semestre de 2027 (Programas de Educación Superior):\n\n• Inscripciones: del 29 de septiembre al 9 de diciembre de 2026\n• Estudio de admisión: del 10 al 14 de diciembre\n• Publicación de admitidos: 15 de diciembre\n• Solicitud de descuento electoral: del 16 de diciembre al 15 de enero\n• Descarga del recibo y pago de matrícula: del 18 al 30 de enero de 2027\n• Inducción: del 25 al 29 de enero\n• Inicio de clases: 1 de febrero de 2027\n\nCiclos de Tecnología e Ingeniería: inscripciones del 23 de noviembre al 5 de diciembre de 2026.\n\nEn general, las inscripciones abren en marzo (para el segundo semestre) y en septiembre (para el primer semestre del año siguiente). Confirma siempre las fechas en la página de admisiones.",
+      "enlaces": [
+        [
+          "Ver la página de admisiones",
+          "https://www.etitc.edu.co/es/page/admisionespes"
+        ]
+      ],
+      "opciones": [
+        [
+          "Cómo inscribirme (paso a paso)",
+          "admPasos"
+        ],
+        [
+          "Otra pregunta de admisiones",
+          "admisiones"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "admCostos": {
+      "texto": "Costos: el Consejo Directivo fija cada año los costos académicos. Los valores vigentes están en la página de Costos Educativos.\n\nGratuidad: desde 2021, los estudiantes que cumplen los requisitos pueden acceder a matrícula gratuita con la política Puedo Estudiar del Gobierno Nacional. Los criterios están en el Reglamento Operativo del Ministerio de Educación.\n\nDescuento electoral: si votaste en las últimas elecciones, llena el formulario de solicitud y envíalo a descuentoelectoral@itc.edu.co (para 2027-1, del 16 de diciembre al 15 de enero).",
+      "enlaces": [
+        [
+          "Ver Costos Educativos",
+          "https://www.etitc.edu.co/es/page/costoseducativos"
+        ],
+        [
+          "Política de Gratuidad (MinEducación)",
+          "https://www.mineducacion.gov.co/portal/Educacion-superior/Politica-de-Gratuidad-Puedo-Estudiar/"
+        ],
+        [
+          "Formulario de descuento electoral (PDF)",
+          "https://www.etitc.edu.co/archives/soldescuelectoral222.pdf"
+        ]
+      ],
+      "opciones": [
+        [
+          "Otra pregunta de admisiones",
+          "admisiones"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "admHomologacion": {
+      "texto": "Homologación de asignaturas:\n\n• Si vienes de otra institución de educación superior (nivel técnico profesional o tecnológico), puedes pedir un estudio de homologación si cumples los requisitos académicos de la ETITC. Debes acercarte a la Decanatura del programa y presentar los contenidos programáticos de las materias.\n• Si vienes del SENA, no es posible homologar, porque el SENA no se reconoce como institución de educación superior para este proceso.\n\nLa solicitud se hace ante la Facultad respectiva, siguiendo el paso a paso publicado.",
+      "enlaces": [
+        [
+          "Paso a paso de homologación (PDF)",
+          "https://www.etitc.edu.co/archives/pasoapasoh226.pdf"
+        ]
+      ],
+      "opciones": [
+        [
+          "Contacto de las facultades",
+          "admContacto"
+        ],
+        [
+          "Otra pregunta de admisiones",
+          "admisiones"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "admCiclos": {
+      "texto": "No es posible entrar directo a ingeniería. Los programas de la ETITC funcionan por ciclos propedéuticos:\n\n1. Técnico Profesional\n2. Tecnología\n3. Ingeniería (profesional)\n\nPor eso, quien ingresa debe empezar su formación en el ciclo Técnico Profesional.",
+      "opciones": [
+        [
+          "Otra pregunta de admisiones",
+          "admisiones"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "admIbti": {
+      "texto": "Las inscripciones para el bachillerato (IBTI) abren a mediados de junio. La institución no hace admisiones para los grados octavo, noveno, décimo y undécimo.\n\nToda la información está en la página de admisiones del IBTI.",
+      "enlaces": [
+        [
+          "Admisiones IBTI",
+          "https://www.etitc.edu.co/es/page/admisionesibti"
+        ]
+      ],
+      "opciones": [
+        [
+          "Otra pregunta de admisiones",
+          "admisiones"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "admContacto": {
+      "texto": "Contacto para admisiones:\n\n• PBX: 601 344 3000\n• Facultad de Electromecánica: ext. 132\n• Facultad de Procesos Industriales: ext. 178\n• Facultad de Mecánica: ext. 304\n• Facultad de Mecatrónica: ext. 205\n• Facultad de Sistemas: ext. 303\n• Correo: atencionalciudadano@itc.edu.co\n\nDirección: Calle 13 # 16-74, Bogotá. Horario: lunes a viernes, de 8:00 a.m. a 5:00 p.m.",
+      "opciones": [
+        [
+          "Hablar con un asesor",
+          "asesor"
+        ],
+        [
+          "Otra pregunta de admisiones",
+          "admisiones"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "pagAcademusoft": {
+      "texto": "Así inscribes materias y generas el recibo en Academusoft:\n\n1. En www.etitc.edu.co entra a la pestaña SERVICIOS → Academusoft e inicia sesión. Usa Chrome, Edge, Brave o Firefox y permite las ventanas emergentes.\n2. Escribe tu usuario con el teclado; la contraseña se marca con el mouse.\n3. Entra a \"Académico estudiante\" → \"Matrícula en línea\" y acepta los términos.\n4. En \"Matricular\", elige cada materia y su grupo, y haz clic en \"Registrar\". Inscribe primero las materias más atrasadas y las reprobadas. No puedes inscribir materias sin el prerrequisito aprobado.\n5. Revisa tu horario en \"Horario estudiante\" y los costos y descuentos en \"Consultar liquidación\".\n6. Para terminar, haz clic en \"Generar comprobante de pago\". Después de esto ya no puedes cambiar materias.\n7. Descarga el recibo en \"Liquidación\", eligiendo el semestre.\n\nSi no generas el comprobante, no aparecerás como estudiante activo. Las electivas (desde 4.º o 5.º semestre) se inscriben en \"Matricular Banco de Electivas\".",
+      "enlaces": [
+        [
+          "Entrar a Academusoft",
+          "https://academusoft.etitc.edu.co/etitc/hermesoft/vortal/iniciarSesion.jsp"
+        ],
+        [
+          "Instructivo de inscripción de materias (PDF)",
+          "https://www.etitc.edu.co/archives/inscripcionasignaturaspes.pdf"
+        ]
+      ],
+      "opciones": [
+        [
+          "Pagar la matrícula",
+          "pagPagar"
+        ],
+        [
+          "Otra pregunta de matrícula y pagos",
+          "pagos"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "pagPagar": {
+      "texto": "Con el recibo generado en Academusoft puedes pagar la matrícula de dos formas:\n\n• En línea: en www.etitc.edu.co entra a Servicios → Pagos en línea (Portal de Pagos Davivienda) y paga con Daviplata u otro medio habilitado.\n• En el Banco Davivienda, presentando el recibo.\n\nSi tienes el beneficio de gratuidad (Puedo Estudiar), no necesitas pagar el recibo.\n\nDespués de pagar, debes legalizar la matrícula.",
+      "enlaces": [
+        [
+          "Pagar en el Portal de Pagos Davivienda",
+          "https://portalpagos.davivienda.com/#/comercio/6962/Instituto%20Tecnico%20Central"
+        ]
+      ],
+      "opciones": [
+        [
+          "Legalizar la matrícula",
+          "pagLegalizar"
+        ],
+        [
+          "Otra pregunta de matrícula y pagos",
+          "pagos"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "pagLegalizar": {
+      "texto": "Para legalizar la matrícula (estudiantes antiguos o de cambio de ciclo), envía un solo PDF desde tu correo institucional a apoyoadmisiones@itc.edu.co, con estos documentos en orden:\n\n1. Recibo de matrícula pagado en el banco (no aplica si tienes gratuidad).\n2. Certificado de afiliación a EPS o SISBEN en estado activo.\n\nNombre del archivo: código del programa y ciclo, seguido de tu número de documento. Ejemplo: 11-0001999888.\nAsunto del correo: ANTIGUOS o CAMBIO DE CICLO, más el nombre del archivo. Ejemplo: ANTIGUOS 11-0001999888.\n\nLa matrícula activa tu usuario: así puedes ver tu horario y apareces en las listas de los docentes. Las fechas de cada semestre salen en el calendario académico.",
+      "enlaces": [
+        [
+          "Indicaciones de legalización (PDF)",
+          "https://www.etitc.edu.co/archives/legalmatriculapes126.pdf"
+        ]
+      ],
+      "opciones": [
+        [
+          "Ver calendario académico",
+          "calendario"
+        ],
+        [
+          "Otra pregunta de matrícula y pagos",
+          "pagos"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "pagDescuento": {
+      "texto": "Si votaste en las últimas elecciones, puedes pedir el descuento electoral en la matrícula:\n\n1. Llena el formulario de solicitud de descuento electoral.\n2. Envíalo a descuentoelectoral@itc.edu.co, dentro de las fechas del calendario académico.\n\nPara los recibos con descuentos o beneficios, el contacto es auxtesoreria2@itc.edu.co.",
+      "enlaces": [
+        [
+          "Formulario de descuento electoral (PDF)",
+          "https://www.etitc.edu.co/archives/soldescuelectoral222.pdf"
+        ]
+      ],
+      "opciones": [
+        [
+          "Mi descuento no aparece",
+          "pagProblemas"
+        ],
+        [
+          "Otra pregunta de matrícula y pagos",
+          "pagos"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "pagProblemas": {
+      "texto": "Según tu caso:\n\n• Tu matrícula sale \"PENDIENTE\" o \"no está activa\": es normal hasta que se aplique el pago del recibo. Si ya pagaste y legalizaste, consulta con Tesorería.\n• Tienes un problema para inscribir materias: escribe a solicitudesmatricula@itc.edu.co desde tu correo institucional.\n• No te aplicaron un descuento al que tienes derecho: acércate a Tesorería entre las 2:00 p.m. y las 7:00 p.m. para validarlo, o escribe a auxtesoreria2@itc.edu.co.\n\nTesorería: tesoreria@itc.edu.co, PBX 601 344 3000 ext. 116.",
+      "opciones": [
+        [
+          "Hablar con un asesor",
+          "asesor"
+        ],
+        [
+          "Otra pregunta de matrícula y pagos",
+          "pagos"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "calParciales": {
+      "texto": "Fechas del semestre 2026-2:\n\n• Inicio de clases: 3 de agosto\n• Primer parcial: del 7 al 12 de septiembre (registro de nota: 21 al 26 de septiembre)\n• Segundo parcial: del 19 al 24 de octubre (registro de nota: 3 al 7 de noviembre)\n• Feria de la Tecnología e Innovación: del 23 de noviembre al 4 de diciembre\n• Fin de clases: 28 de noviembre\n• Evaluación final: del 1 al 5 de diciembre\n• Revisión de notas y supletorios: del 7 al 12 de diciembre\n• Registro de la nota final: del 7 al 15 de diciembre\n\nDespués de cada evaluación hay una semana de revisión de notas y supletorio.",
+      "enlaces": [
+        [
+          "Calendario académico 2026 (PDF)",
+          "https://www.etitc.edu.co/archives/acuerdo0052025.pdf"
+        ]
+      ],
+      "opciones": [
+        [
+          "Otra pregunta del calendario",
+          "calendario"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "calInicio2027": {
+      "texto": "Semestre 2027-1:\n\n• Inicio de clases: 1 de febrero de 2027\n• Estudiantes nuevos: inducción del 25 al 29 de enero y pago de matrícula del 18 al 30 de enero\n• Cambio de ciclo (Tecnología e Ingeniería): inscripciones del 23 de noviembre al 5 de diciembre de 2026, validación del 7 al 10 de diciembre y pagos del 18 al 25 de enero\n\nLas fechas de renovación de matrícula de estudiantes antiguos para 2027-1 se publicarán en el calendario académico de 2027.",
+      "enlaces": [
+        [
+          "Modificación del calendario (Acuerdo 03 de 2026, PDF)",
+          "https://www.etitc.edu.co/archives/acuerdo0032026.pdf"
+        ]
+      ],
+      "opciones": [
+        [
+          "Cómo inscribir materias",
+          "pagAcademusoft"
+        ],
+        [
+          "Otra pregunta del calendario",
+          "calendario"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "calCancelacion": {
+      "texto": "Cancelación en el semestre 2026-2:\n\n• Cancelación total con abono del 50 % (solo si pagaste la matrícula): del 3 al 14 de agosto, con carta a Rectoría.\n• Cancelación parcial de materias en Academusoft, o cancelación total por correo a Registro y Control: del 3 de agosto al 2 de octubre.\n\nRegistro y Control: registro@itc.edu.co, PBX 601 344 3000 ext. 237.",
+      "enlaces": [
+        [
+          "Calendario académico 2026 (PDF)",
+          "https://www.etitc.edu.co/archives/acuerdo0052025.pdf"
+        ]
+      ],
+      "opciones": [
+        [
+          "Otra pregunta del calendario",
+          "calendario"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "calSolicitudes": {
+      "texto": "Solicitudes para ingresar en 2027-1 (semestre 2026-2):\n\n• Reintegros, transferencias internas y externas, homologaciones y validaciones: del 1 al 31 de octubre\n• Examen de validación: del 3 al 13 de noviembre\n• Publicación de transferencias externas, homologaciones y reintegros aprobados: 30 de noviembre\n• Publicación de transferencias internas aprobadas: 16 de diciembre",
+      "enlaces": [
+        [
+          "Calendario académico 2026 (PDF)",
+          "https://www.etitc.edu.co/archives/acuerdo0052025.pdf"
+        ]
+      ],
+      "opciones": [
+        [
+          "Homologación",
+          "admHomologacion"
+        ],
+        [
+          "Otra pregunta del calendario",
+          "calendario"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "calGrados": {
+      "texto": "Grados colectivos del semestre 2026-2:\n\n• Solicitud de grado: del 1 al 7 de septiembre\n• Ceremonia de graduación: 23 de octubre\n\nLas fechas de grados de 2027 se publicarán en el próximo calendario académico.",
+      "enlaces": [
+        [
+          "Calendario académico 2026 (PDF)",
+          "https://www.etitc.edu.co/archives/acuerdo0052025.pdf"
+        ]
+      ],
+      "opciones": [
+        [
+          "Otra pregunta del calendario",
+          "calendario"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "bienPsico": {
+      "texto": "El área de Psicología ofrece:\n\n• Acompañamiento individual y grupal (no terapéutico) en temas emocionales, ansiedad, estrés y duelo\n• Orientación socio-ocupacional para elegir carrera\n• Talleres, capacitaciones y apoyo para adaptarse a la vida universitaria\n• Estrategias de estudio y manejo del tiempo\n\nContacto (Educación Superior): psicologia.pes@itc.edu.co, ext. 168, o psicologiaetitc@itc.edu.co, ext. 165.",
+      "enlaces": [
+        [
+          "Tú vales",
+          "https://tuvales.etitc.edu.co"
+        ]
+      ],
+      "opciones": [
+        [
+          "Necesito apoyo emocional ahora",
+          "urgEmocional",
+          "peligro"
+        ],
+        [
+          "Otro servicio de Bienestar",
+          "bienestar"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "bienSalud": {
+      "texto": "El área de Salud tiene servicio de enfermería en la sede.\n\nContacto: enfermeria@itc.edu.co, ext. 162, o enfermeriapes@itc.edu.co.\n\nSi es una emergencia de salud, llama a la Línea 123.",
+      "opciones": [
+        [
+          "Es una emergencia",
+          "urgEmergencia",
+          "peligro"
+        ],
+        [
+          "Otro servicio de Bienestar",
+          "bienestar"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "bienDeporte": {
+      "texto": "Recreación y Deporte: gimnasio, baloncesto, voleibol, fútbol, tenis y tenis de mesa.\nArte y Cultura: danzas, música y actividades culturales.\n\nContactos:\n• Gimnasio: gimnasio@itc.edu.co\n• Fútbol y tenis: futboltenis@itc.edu.co, ext. 245\n• Danzas: danzaspes@itc.edu.co, ext. 244\n• Arte y Cultura: arteycultura@itc.edu.co, ext. 150\n\nEl cronograma de actividades está en línea.",
+      "enlaces": [
+        [
+          "Cronograma de actividades",
+          "https://permanencia.itc.edu.co/logistico/actividades_calendario.php"
+        ]
+      ],
+      "opciones": [
+        [
+          "Otro servicio de Bienestar",
+          "bienestar"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "bienPermanencia": {
+      "texto": "Para que termines tus estudios, Bienestar ofrece:\n\n• CREA (Centro de Refuerzo Especializado de Aprendizaje): diagnóstico, tutorías, refuerzos y apoyo académico\n• Monitorías: estudiantes que apoyan a compañeros con dificultades\n• Curso nivelatorio de matemáticas para primer semestre\n• App Levanta la Mano: para pedir apoyo y hacer seguimiento\n\nContacto: permanenciabienestar@itc.edu.co.",
+      "enlaces": [
+        [
+          "Micrositio CREA",
+          "https://www.etitc.edu.co/es/page/crea"
+        ],
+        [
+          "App Levanta la Mano",
+          "https://permanencia.itc.edu.co/app/login_page.php"
+        ]
+      ],
+      "opciones": [
+        [
+          "Otro servicio de Bienestar",
+          "bienestar"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "bienSocial": {
+      "texto": "Trabajo Social acompaña a los estudiantes en situaciones sociales y familiares, y orienta sobre los apoyos socioeconómicos de la institución, que se otorgan cuando se requieren y según la disponibilidad de recursos.\n\nContacto: trabajosocialpes@itc.edu.co, ext. 227.\n\nLa ETITC también tiene un protocolo de prevención y atención de violencia sexual y de género.",
+      "enlaces": [
+        [
+          "Protocolo de prevención de violencias (PDF)",
+          "https://etitc.edu.co/archives/protocolviolenciagen.pdf"
+        ]
+      ],
+      "opciones": [
+        [
+          "Otro servicio de Bienestar",
+          "bienestar"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "confNota": {
+      "texto": "Si no estás de acuerdo con una calificación (Reglamento Estudiantil, Art. 56):\n\n1. Presenta la reclamación ante el profesor dentro de los 5 días siguientes al registro de la nota.\n2. Si sigues inconforme, presenta por escrito un recurso de revisión ante el Decano, dentro de los 3 días hábiles después de la semana de revisión de notas y supletorio de ese corte.\n3. La revisión se hace en los 5 días hábiles siguientes. Si procede, la Facultad designa a otro profesor del área como segundo calificador; las dos notas se promedian y el resultado es definitivo.",
+      "enlaces": [
+        [
+          "Reglamento Estudiantil (PDF)",
+          "https://etitc.edu.co/archives/acuerdo092021.pdf"
+        ]
+      ],
+      "opciones": [
+        [
+          "Registrar mi caso (3 preguntas)",
+          "formConflicto",
+          "peligro"
+        ],
+        [
+          "Contacto de las facultades",
+          "admContacto"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    },
+    "urgViolencia": {
+      "texto": "Lo que te pasó no es tu culpa y mereces apoyo.\n\n• Si estás en peligro ahora, llama a la Línea 123.\n• Línea 155: orientación a mujeres víctimas de violencia (gratuita, 24 horas).\n\nLa ETITC tiene un protocolo de prevención y atención de violencias sexuales y de género. Puedes acudir a Bienestar Universitario: trabajosocialpes@itc.edu.co (ext. 227) o psicologia.pes@itc.edu.co (ext. 168).",
+      "tipo": "alerta",
+      "enlaces": [
+        [
+          "Protocolo de prevención de violencias (PDF)",
+          "https://etitc.edu.co/archives/protocolviolenciagen.pdf"
+        ]
+      ],
+      "opciones": [
+        [
+          "Quiero que me contacten",
+          "formUrgente",
+          "peligro"
+        ],
+        [
+          "Volver al menú",
+          "inicio",
+          "suave"
+        ]
+      ]
+    }
+  },
+  "palabrasClave": [
+    [
+      "suicid|matarme|hacerme da|deprim|ansiedad|crisis|no puedo m[aá]s",
+      "urgEmocional"
+    ],
+    [
+      "acos|violen|abus|me toc[oó]",
+      "urgViolencia"
+    ],
+    [
+      "reclamar (una |la )?nota|revisi[oó]n de (la )?nota|segundo calificador",
+      "confNota"
+    ],
+    [
+      "profesor|docente|me trat|injust|irrespet",
+      "urgAcademica"
+    ],
+    [
+      "urgen|emergen|ayuda ya|auxilio|accidente|robo|herid",
+      "urgencias"
+    ],
+    [
+      "asesor|humano|persona|hablar con",
+      "asesor"
+    ],
+    [
+      "inscribir materias|matricular materias|academusoft|liquidaci|comprobante de pago|recibo",
+      "pagAcademusoft"
+    ],
+    [
+      "legaliz",
+      "pagLegalizar"
+    ],
+    [
+      "pendiente|no est[aá] activa",
+      "pagProblemas"
+    ],
+    [
+      "duplicado|diploma|acta de grado",
+      "certDuplicado"
+    ],
+    [
+      "certificado de costos|costos",
+      "certCostos"
+    ],
+    [
+      "certificad|constancia|notas",
+      "certEstudio"
+    ],
+    [
+      "homolog",
+      "admHomologacion"
+    ],
+    [
+      "gratuidad|descuento electoral|costo",
+      "admCostos"
+    ],
+    [
+      "ingenier|propede",
+      "admCiclos"
+    ],
+    [
+      "bachillerato|ibti",
+      "admIbti"
+    ],
+    [
+      "saber 11|icfes|document|requisit",
+      "admReq"
+    ],
+    [
+      "inscrip|inscrib|admisi|admitid|aspirante|ingresar a la",
+      "admisiones"
+    ],
+    [
+      "descuento electoral",
+      "pagDescuento"
+    ],
+    [
+      "pago|pagar|matr[ií]cula|pse|davivienda|daviplata|tesorer",
+      "pagos"
+    ],
+    [
+      "cancelar|cancelaci",
+      "calCancelacion"
+    ],
+    [
+      "reintegro|transferencia|validaci",
+      "calSolicitudes"
+    ],
+    [
+      "grado|graduaci",
+      "calGrados"
+    ],
+    [
+      "parcial|supletorio|evaluaci|final|fin de clases",
+      "calParciales"
+    ],
+    [
+      "2027|inicio de clases|empiezan las clases",
+      "calInicio2027"
+    ],
+    [
+      "calendario|fecha|semestre|vacacion",
+      "calendario"
+    ],
+    [
+      "psic[oó]log|ansiedad|estr[eé]s",
+      "bienPsico"
+    ],
+    [
+      "enfermer|m[eé]dic|salud",
+      "bienSalud"
+    ],
+    [
+      "deporte|gimnasio|gym|danza|m[uú]sica|cultura|f[uú]tbol|baloncesto",
+      "bienDeporte"
+    ],
+    [
+      "crea|monitor|tutor|levanta la mano|permanencia|nivelatorio",
+      "bienPermanencia"
+    ],
+    [
+      "trabajo social|socioecon|apoyo econ|violencia",
+      "bienSocial"
+    ],
+    [
+      "bienestar",
+      "bienestar"
+    ],
+    [
+      "contrase|clave|correo|aula|plataforma|moodle|usuario",
+      "plataformas"
+    ]
+  ]
+}
