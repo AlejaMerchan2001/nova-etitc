@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Solicitudes ETITC</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@500&display=swap">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <main class="admin">
+    <div class="eyebrow">Panel interno</div>
+    <h1>Solicitudes radicadas</h1>
+    <p class="lead">Las urgencias aparecen primero. <a href="/">Volver al chat</a></p>
+
+    {% if solicitudes %}
+    <div class="tabla">
+      <table>
+        <thead><tr><th>Radicado</th><th>Prioridad</th><th>Nombre</th><th>Correo</th><th>Documento</th><th>Tema</th><th>Mensaje</th><th>Fecha</th><th>Estado</th></tr></thead>
+        <tbody>
+        {% for solicitud in solicitudes %}
+          <tr>
+            <td class="code">{{ solicitud.radicado }}</td>
+            <td><span class="pill {{ 'alta' if solicitud.urgente else 'normal' }}">{{ 'Alta' if solicitud.urgente else 'Normal' }}</span></td>
+            <td>{{ solicitud.nombre }}</td><td>{{ solicitud.correo }}</td><td>{{ solicitud.documento }}</td>
+            <td>{{ solicitud.tema }}</td><td class="msgcol">{{ solicitud.mensaje }}</td>
+            <td class="code">{{ solicitud.fecha[:16].replace('T',' ') }}</td><td>{{ solicitud.estado }}</td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% else %}
+      <p class="vacio">Todavía no hay solicitudes. Radica una desde el chat y aparecerá aquí.</p>
+    {% endif %}
+  </main>
+</body>
+</html>
