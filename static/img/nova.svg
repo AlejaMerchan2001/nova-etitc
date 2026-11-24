@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Nova">
+  <defs>
+    <linearGradient id="novaCabeza" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1fbf4"/>
+      <stop offset="1" stop-color="#d3f2de"/>
+    </linearGradient>
+    <linearGradient id="novaOreja" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bff3d2"/>
+      <stop offset="1" stop-color="#8fe3b0"/>
+    </linearGradient>
+  </defs>
+  <path d="M19 47 A31 31 0 0 1 81 47" fill="none" stroke="#6fe39c" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M21 57 C21 72 31 81 45 82" fill="none" stroke="#6fe39c" stroke-width="2.4" stroke-linecap="round"/>
+  <ellipse cx="22" cy="52" rx="9" ry="11" fill="url(#novaOreja)"/>
+  <ellipse cx="78" cy="52" rx="9" ry="11" fill="url(#novaOreja)"/>
+  <circle cx="50" cy="51" r="29" fill="url(#novaCabeza)"/>
+  <rect x="27" y="38" width="46" height="21" rx="10.5" fill="#1d5a36"/>
+  <circle cx="38.5" cy="48.5" r="5.2" fill="#ffffff"/>
+  <circle cx="61.5" cy="48.5" r="5.2" fill="#ffffff"/>
+  <path d="M44 66 Q50 71 56 66" fill="none" stroke="#1d5a36" stroke-width="2.6" stroke-linecap="round"/>
+  <ellipse cx="50" cy="82" rx="7.5" ry="4.6" fill="#bff3d2"/>
+</svg>
